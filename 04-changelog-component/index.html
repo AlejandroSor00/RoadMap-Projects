@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <header>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Changelog Component</title>
+      <meta name="description" content="Basic HTML website">
+      <meta name="robots" content="index,follow">
+    </header>
+    <body>
+        <section class="changelog-component">
+            <div class="changelog-header">
+       <h1 class="changelog-title">Changelog</h1>
+       <h2 class="changelog-text">Here's everything we have shipped in the past few weeks</h2>
+    </div>
+        <section class="changelog-view">
+            <div class="changelog-point">
+                <span class="changelog-point-date">September 3, 2024</span>
+                <div class="changelog-point-dot">
+                    <div class="changelog-point-line"></div>
+                </div>
+                <span class="changelog-point-info"> Announcing Project on FrontEnd Roadmap</span>
+            </div>
+            <div class="changelog-point">
+                <span class="changelog-point-date">September 3, 2024</span>
+                <div class="changelog-point-dot">
+                    <div class="changelog-point-line"></div>
+                </div>
+                <span class="changelog-point-info"> Announcing Project on FrontEnd Roadmap</span>
+            </div>
+            <div class="changelog-point">
+                <span class="changelog-point-date">September 3, 2024</span>
+                <div class="changelog-point-dot">
+                    <div class="changelog-point-line"></div>
+                </div>
+                <span class="changelog-point-info"> Announcing Project on FrontEnd Roadmap</span>
+            </div>
+            <div class="changelog-point">
+                <span class="changelog-point-date">September 3, 2024</span>
+                <div class="changelog-point-dot">
+                    <div class="changelog-point-line"></div>
+                </div>
+                <span class="changelog-point-info"> Announcing Project on FrontEnd Roadmap</span>
+            </div>
+            <div class="changelog-point">
+                <span class="changelog-point-date">September 3, 2024</span>
+                <div class="changelog-point-dot">
+                    <div class="changelog-point-line"></div>
+                </div>
+                <span class="changelog-point-info"> Announcing Project on FrontEnd Roadmap</span>
+            </div>
+            <div class="changelog-point">
+                <span class="changelog-point-date">September 3, 2024</span>
+                <div class="changelog-point-dot">
+                    <div class="changelog-point-line"></div>
+                </div>
+                <span class="changelog-point-info"> Announcing Project on FrontEnd Roadmap</span>
+            </div>
+            <div class="changelog-point">
+                <span class="changelog-point-date">September 3, 2024</span>
+                <div class="changelog-point-dot">
+                    <div class="changelog-point-line"></div>
+                </div>
+                <span class="changelog-point-info"> Announcing Project on FrontEnd Roadmap</span>
+            </div>
+        </section>
+        <a href="/changelogs"> <button class="changelog-button">Visit Complete Changelog</button></a>
+    </section>
+    </body>
+
+    <style>
+    
+:root{
+    --dot-size: 20px;
+    --color-changelog: black;
+    --gap-between-logs: 50px;
+    --line-width: calc(var(--dot-size)/10)
+}
+body {
+    font-family: system-ui;
+}
+.changelog-point {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.changelog-point-dot {
+  width: var(--dot-size);
+  height: var(--dot-size);
+  position: relative;
+  background-color: var(--color-changelog);
+  border-radius: 50%;
+}
+
+.changelog-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-between-logs);
+  margin-bottom: 50px;
+}
+
+
+.changelog-point-line {
+  width: var(--line-width);
+  background-color: black;
+  height: calc((var(--gap-between-logs) + var(--dot-size)));
+  position: absolute;
+  bottom: 100%;
+  left: calc((var(--dot-size) - var(--line-width)) / 2)
+}
+
+.changelog-component {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: c;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 50px 0px;
+  }
+
+  .changelog-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: calc(var(--gap-between-logs) * 1.5);
+  }
+
+  .changelog-title{
+    font-size: 30pt;
+    font-weight: 400;
+
+  }
+  .changelog-text {
+    color: rgb(150, 150, 150);
+    font-size: 15pt;
+    font-weight: 200;
+  }
+  .changelog-button {
+    color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    background-color: black;
+    border: none;
+  }
+
+  @media (max-width: 760px){
+    :root{
+    --dot-size: 10px;
+    --color-changelog: black;
+    --gap-between-logs: 35px;
+    --line-width: calc(var(--dot-size)/10)
+}
+    body {
+        margin: 0px;
+    }
+    .changelog-component{
+        max-width: 100%;
+        border: none;
+    }
+    .changelog-point{
+        font-size: 7pt;
+    }
+    .changelog-title {
+        font-size: 20pt;
+    }
+    .changelog-text {
+        font-size: 10pt;
+    }
+  }
+    </style>
+
+    </html>
