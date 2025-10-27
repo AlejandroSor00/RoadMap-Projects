@@ -12,3 +12,5 @@ RoadMaps projects
 05 - Testimonial Cards: https://roadmap.sh/projects/testimonial-cards
 
 06 - DatePicker UI: https://roadmap.sh/projects/datepicker-ui
+
+07 - Accessible UI Page: https://roadmap.sh/projects/accessible-form-ui
