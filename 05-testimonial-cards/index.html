@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html>
+ 
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oleo+Script:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Satisfy&display=swap" rel="stylesheet">
+    <title>Testimonial Cards</title>
+</head>
+    <body>
+         <section class="cards-section">
+            <div class="cards-first-layout">
+                <div class="card-first-section-left">
+                   <div class="card-first-section-left-content">I have been solving all the projects ideas on roadmap.sh and I am suprised how far I have come from where I started <br> <br> Highly recommend! <div class="arrow-down"></div></div>
+                   <div class="card-first-section-left-info">
+                    <img class="card-image" src="public/images/img-artem.png" width="900" height="600">
+                    <div class="card-first-section-left-info-texts">
+                        <span class="card-first-section-left-info-name">Artem Jones</span>
+                        <span class="card-first-section-left-info-job">Junior Frotend Developer</span>
+                    </div>
+                   </div>
+                </div>
+                <div class="card-first-section-right">
+                      <span class="card-first-section-right-text">Since starting my career in 2021, I have only followed one resource, roadmap.sh it truly helped me go from 0 to having a job and changing the financial trajectory of my family </span>
+                      <div class="card-first-section-right-info">
+                        <img class="card-image" src="public/images/img-maria.png" width="900" height="600">
+                        <div class="card-first-section-right-info-texts">
+                            <span class="card-first-section-right-info-name">Maria Conway</span>
+                            <span class="card-first-section-right-info-job">Junior Frotend Developer</span>
+                        </div>
+                       </div>
+                      </div>
+                </div>
+                <div class="cards-second-layout">
+                    <img class="card-image-big" src="public/images/img-artem.png" width="900" height="600">
+                    <div class="card-second-section">
+                        <div class="card-second-section-stars">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <span class="card-second-section-name">Jackie Mackle</span>
+                        <span class="card-second-section-job">Engineer Manager</span>
+                        <span class="card-second-section-text">I find myself recommeding roadmap.sh to all internees or junior developers. It's a great way to skill up and grow in your career.</span>
+                    </div>
+                </div>
+                <div class="cards-third-layout">
+                    <div class="cards-third-layout-content">
+                          <span>roadmap.sh is an incredible resource. I was fortunate to discover it during my university days in 2018. Back then, it was just a single repository with three images. It's amazing to see how much impact it has had on millions of lives since then.</span>
+                    </div>
+                    <div class="cards-third-layout-carrousel">
+                        <i class="arrow left"></i>
+                        <div class="images-container">
+                            <img class="card-image" src="public/images/img-maria.png" width="900" height="600">
+                            <img class="card-image" src="public/images/img-maria.png" width="900" height="600">
+                            <img class="card-image" src="public/images/img-maria.png" width="900" height="600">
+                        </div>
+                        <i class="arrow right"></i>
+                    </div>
+                </div>
+         </section>        
+    </body>
+</html>
+
+<style>
+    body  {
+        font-family: "Nunito";
+        max-width: 700px;
+         margin: auto;
+         padding-top: 50px;
+         font-weight: 500;
+    }
+    .cards-section{
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .cards-first-layout{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .card-first-section-left {
+        display: flex;
+        gap: 20px;
+        flex: 0.5;
+        flex-direction: column;
+    }
+    .arrow-down{
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 0 10px 10px 10px;
+        border-color: transparent transparent #000 transparent;
+        transform: rotate(180deg);
+        position: absolute;
+        bottom: -10px;
+    }
+    .card-first-section-left-content{
+        background-color: black;
+        position: relative;
+        color: white;
+        border-radius: 15px;
+        padding: 20px 20px;
+    }
+    .card-first-section-left-info, .card-first-section-right-info{
+        display: flex;
+        flex-direction: row;
+    }
+    .card-first-section-left-info-texts, .card-first-section-right-info-texts{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 20px;
+    }
+    .card-image  {
+        border-radius: 50%;
+        max-width:70px;
+    max-height:70px;
+    width: auto;
+    height: auto;
+             
+    }
+    .card-first-section-right {
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 20px 20px;
+        display: flex;
+        flex: 0.5;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .cards-second-layout{
+        display: flex;
+        gap: 20px;
+    }
+    .card-image-big{
+        border-radius: 10px;
+        max-width:250px;
+        width: auto;
+        height: auto;
+    }
+    .card-second-section{
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        background: #000;
+        justify-content: space-evenly;
+        padding: 20px;
+        gap: 20px;
+        color: white;
+    }
+    .card-second-section-job{
+        color: gray;
+    }
+    .card-second-section-name{
+        font-size: 22px;
+    }
+    .checked{
+        color: gold;
+        font-size: 20px;
+    }
+    .cards-third-layout{
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .cards-third-layout-content{
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 25px;
+    }
+    .cards-third-layout-carrousel{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+    .images-container{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    .images-container > * {
+    opacity: 0.6;
+    max-width: 50px;
+    max-height: 50px;
+    }
+
+    .images-container > :nth-child(2){
+        opacity: 1;
+        max-width: 70px;
+        max-height: 70px;
+    }
+
+    .arrow {
+        display: block;
+  margin: 30px auto;
+  width: 15px;
+  height: 15px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
+.right {
+    transform: rotate(135deg);
+}
+
+.left {
+    transform: rotate(315deg)
+}
+</style>
