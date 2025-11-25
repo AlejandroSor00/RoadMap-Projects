@@ -20,3 +20,5 @@ RoadMaps projects
 09 - Tabs: https://roadmap.sh/projects/simple-tabs
 
 10 - Cookie Modal: https://roadmap.sh/projects/cookie-consent
+
+11 - Restricted Text Area: https://roadmap.sh/projects/restricted-textarea
