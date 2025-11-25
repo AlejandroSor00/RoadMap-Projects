@@ -1,0 +1,55 @@
+body {
+    font-family: system-ui;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 60%;
+    margin: auto;
+}
+
+.accordions-wrapper {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-section{
+    width: 60%;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.accordion-title{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px
+}
+.accordion-text {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  padding: 0 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: max-height 200ms ease, opacity 200ms ease, padding 200ms ease;
+}
+
+.visible {
+  max-height: 500px;
+  opacity: 1;
+  padding: 15px;
+}
