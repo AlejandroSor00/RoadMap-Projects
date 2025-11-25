@@ -22,3 +22,5 @@ RoadMaps projects
 10 - Cookie Modal: https://roadmap.sh/projects/cookie-consent
 
 11 - Restricted Text Area: https://roadmap.sh/projects/restricted-textarea
+
+12 - Accordion Component: https://roadmap.sh/projects/accordion
