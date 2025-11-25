@@ -18,3 +18,5 @@ RoadMaps projects
 08 - Tooltip UI: https://roadmap.sh/projects/tooltip-ui
 
 09 - Tabs: https://roadmap.sh/projects/simple-tabs
+
+10 - Cookie Modal: https://roadmap.sh/projects/cookie-consent
