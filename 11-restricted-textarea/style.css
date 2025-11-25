@@ -1,0 +1,30 @@
+
+* {
+    font-family:system-ui
+}
+
+.textarea-section{
+    margin: 40px auto;
+    position: relative;
+    width: 400px;
+    height: 100px;
+    border:solid 2px black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.textarea {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: 10px;
+}
+
+.textarea-characters{
+    position: absolute;
+    size: 10px;
+    bottom: 5px;
+    right: 5px;
+    font-size: 10px;
+}
