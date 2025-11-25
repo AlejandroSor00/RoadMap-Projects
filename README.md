@@ -16,3 +16,5 @@ RoadMaps projects
 07 - Accessible UI Page: https://roadmap.sh/projects/accessible-form-ui
 
 08 - Tooltip UI: https://roadmap.sh/projects/tooltip-ui
+
+09 - Tabs: https://roadmap.sh/projects/simple-tabs
