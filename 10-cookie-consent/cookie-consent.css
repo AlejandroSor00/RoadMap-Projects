@@ -1,0 +1,50 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cookie-section {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 15%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-image {
+    width: 50px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+.cookie-text {
+    color: white;
+    font-size: 0.75rem;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.cookie-button{
+    padding: 10px;
+    font-size: 0.75rem;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    cursor:grab ;
+}
+
+.cookie-header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+
+.cookie-close{
+    color: white
+}
+
+.hidden {
+    display: none;
+}
