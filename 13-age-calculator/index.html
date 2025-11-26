@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        
+        <section class="age-calculator-section">
+            <h1 class="age-calculator-title">Age Calculator</h1>
+            <span class="age-calculator-subtitle">Enter your birth date:</span>
+            <input
+                    type="date"
+                    id="start"
+                    class="age-calculator-input"
+                    name="trip-start"
+                    value="2018-07-22"
+                    min="1900-12-31"
+                    max="2099-12-31" />
+            <button class="age-calculator-button">Calculate</button>
+            <span class="age-calculator-value"></span>
+        </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/luxon@3.7.2/build/global/luxon.min.js"></script>
+    <script src="age-calculator.js"></script>
+    </body>
+</html>
