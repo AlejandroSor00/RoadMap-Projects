@@ -1,0 +1,89 @@
+* {
+    font-family: system-ui;
+}
+
+.task-section{
+    width: 40%;
+    margin: 50px auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.task-input{
+   border: none;
+    flex: 0.9;
+    padding: 10px;
+}
+
+.task-input:focus{
+    outline: none;
+}
+
+.task-input::after{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.task__submit{
+    display: flex;
+    position: relative;
+    width: 100%;
+        padding: 3px;
+
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.task-button{
+    background-color: black;
+    border: none;
+    cursor:pointer;
+    color: white;
+    flex:0.1;
+    border-radius: 5px;
+}
+.task-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10px; 
+}
+
+.task{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.task-status{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.task-remove{
+   margin-left: auto;
+   text-decoration: solid !important
+}
+
+.task-info {
+    font-size: 1.1rem
+}
+
+.task-completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.completed {
+    background-color: gray;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid rgb(172, 171, 171);
+}
+

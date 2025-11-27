@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker Component</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="task-section">
+        <h1 class="task-title">Task Tracker</h1>
+        <div class="task__submit">
+            <input class="task-input" placeholder="Start writing and press enter to create task" />
+            <button class="task-button">⎆</button>
+        </div>
+        <template class="task-content" id="template-task">
+            <div class="task">
+                <div class="task-status"></div>
+                <span class="task-info">My task is very important on this job</span>
+                <span class="task-remove">🗑</span>
+            </div>
+            <hr>
+        </template>
+    </section>
+
+
+
+    <script src="./task-tracker.js"></script>
+</body>
+</html>
