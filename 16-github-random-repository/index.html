@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Random Repository</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="repo-section">
+        <div class="repo-header">
+            <div class="repo-header-logo"></div>
+            <h1 class="repo-header-title">Github Repository Finder</h1>
+     
+        </div>
+        <select id="repo-languages" class="repo-languages">
+            <template class="repo-language-options">
+
+            </template>
+    
+        </select>
+        <div class="repo-selected">
+            <div class="wrapper-loader">
+                <span class="repo-selected-title">Please Select a language</span>
+                <span class="repo-selected-loading">Loading, please wait...</span>
+                <span class="repo-selected-error">Error fetching repositories</span>
+            </div>
+            <div class="wrapper-result">
+                <span class="repo-selected-title">Axios test</span>
+                <span class="repo-selected-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quasi mole</span>
+                <div class="repo-info">
+                    <span class="repo-info-language">JS</span>
+                    <span class="repo-info-stars">3333</span>
+                    <span class="repo-info-forks">322</span>
+                    <span class="repo-info-issues">120</span>
+                </div>
+            </div>
+        </div>
+                    <button id="repo-refresh" class="repo-reload">Refresh</button>
+    </section>
+
+    <script src="github-random-repo.js"></script>
+</body>
+</html>
