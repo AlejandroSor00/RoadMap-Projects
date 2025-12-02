@@ -1,0 +1,50 @@
+html{
+    font-family: system-ui;
+}
+
+
+.temp-converter{
+    width: 50%;
+    margin: 30px auto;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 10px;   
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+span  {
+    font-size: 0.6rem;
+}
+
+.temp-converter-value, .temp-converter-units-from, .temp-converter-units-to{
+        border: 1.5px solid black;
+    border-radius: 5px;   
+    padding: 5px;
+    background: none 
+}
+
+.temp-converter-form{
+    display: flex;
+    gap: 30px;
+}
+
+
+.temp-converter-result{
+    margin-top: 40px;
+    color: green;
+    font-size: 0.75rem;
+}
+
+.temp-converter-button{
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
