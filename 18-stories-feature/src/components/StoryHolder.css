@@ -1,0 +1,15 @@
+.story-holder{
+    border: 2px black solid;
+    border-radius: 10px;
+    display: flex;
+    max-width: fit-content;
+    margin: auto;
+    gap: 30px;
+    padding: 2px 0px;
+}
+
+.stories{
+
+    gap: 2px;
+    display: flex;
+}
