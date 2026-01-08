@@ -38,3 +38,5 @@ RoadMaps projects
 16 - Github Random Repository: https://roadmap.sh/projects/github-random-repo
 
 17 - Temperature Converter: https://roadmap.sh/projects/temperature-converter
+
+18 - Stories Feature: https://roadmap.sh/projects/stories-feature
